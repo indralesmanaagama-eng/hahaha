@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi - YSI Komap UMY</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .person-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+            border: 1px solid #e6e6e6;
+        }
+        .person-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .person-img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 4px solid #eee;
+        }
+        header.page-header {
+            background: linear-gradient(to right, #0a3a6d, #0f5fa8);
+            padding: 90px 0 60px;
+            color: white;
+            text-align: center;
+        }
+        .section-title {
+            font-weight: bold;
+            margin: 40px 0 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">YSI Komap UMY</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="profil.html" class="nav-link">Profil</a></li>
+                <li class="nav-item"><a href="visi-misi.html" class="nav-link">Visi Misi</a></li>
+                <li class="nav-item"><a href="struktur.html" class="nav-link active">Struktur</a></li>
+                <li class="nav-item"><a href="program-kerja.html" class="nav-link">Program Kerja</a></li>
+                <li class="nav-item"><a href="berita.html" class="nav-link">Berita</a></li>
+                <li class="nav-item"><a href="publikasi.html" class="nav-link">Publikasi</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Galeri</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="galeri-foto.html" class="dropdown-item">Foto</a></li>
+                        <li><a href="galeri-video.html" class="dropdown-item">Video</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="arsip.html" class="nav-link">Arsip</a></li>
+                <li class="nav-item"><a href="download.html" class="nav-link">Download</a></li>
+                <li class="nav-item"><a href="kalender.html" class="nav-link">Kalender</a></li>
+                <li class="nav-item"><a href="pendaftaran.html" class="nav-link btn btn-primary text-white ms-2 px-3">Daftar</a></li>
+                <li class="nav-item"><a href="kontak.html" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="page-header">
+    <div class="container">
+        <h1 class="fw-bold">Struktur Organisasi</h1>
+        <p class="lead">Formasi Kepengurusan YSI Komap UMY</p>
+    </div>
+</header>
+
+<!-- CONTENT -->
+<section class="py-5">
+    <div class="container">
+
+        <!-- Ketua -->
+        <h2 class="section-title">Ketua</h2>
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/ketua.jpg" class="person-img">
+                    <h5 class="fw-bold">Nama Ketua</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sekretaris -->
+        <h2 class="section-title">Sekretaris</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="person-card">
+                    <img src="assets/img/sekretaris1.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Sekretaris 1</h6>
+                    <p class="text-muted">Sekretaris 1</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="person-card">
+                    <img src="assets/img/sekretaris2.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Sekretaris 2</h6>
+                    <p class="text-muted">Sekretaris 2</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bendahara -->
+        <h2 class="section-title">Bendahara</h2>
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/bendahara.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Bendahara</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Media (3 Orang) -->
+        <h2 class="section-title">Divisi Media</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/media1.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Media 1</h6>
+                    <p class="text-muted">Media</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/media2.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Media 2</h6>
+                    <p class="text-muted">Media</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/media3.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Media 3</h6>
+                    <p class="text-muted">Media</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Humas (2 Orang) -->
+        <h2 class="section-title">Divisi Humas</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="person-card">
+                    <img src="assets/img/humas1.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Humas 1</h6>
+                    <p class="text-muted">Humas</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="person-card">
+                    <img src="assets/img/humas2.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Humas 2</h6>
+                    <p class="text-muted">Humas</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Acara (1 Orang) -->
+        <h2 class="section-title">Divisi Acara</h2>
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-4">
+                <div class="person-card">
+                    <img src="assets/img/acara.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Acara</h6>
+                    <p class="text-muted">Koordinator Acara</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Perekap (4 Orang) -->
+        <h2 class="section-title">Divisi Perekap</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-3">
+                <div class="person-card">
+                    <img src="assets/img/perekap1.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Perekap 1</h6>
+                    <p class="text-muted">Perekap</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="person-card">
+                    <img src="assets/img/perekap2.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Perekap 2</h6>
+                    <p class="text-muted">Perekap</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="person-card">
+                    <img src="assets/img/perekap3.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Perekap 3</h6>
+                    <p class="text-muted">Perekap</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="person-card">
+                    <img src="assets/img/perekap4.jpg" class="person-img">
+                    <h6 class="fw-bold">Nama Perekap 4</h6>
+                    <p class="text-muted">Perekap</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light text-center py-4">
+    <p class="mb-1">© 2025 Young Sustainable Initiative</p>
+    <small>Kolaborasi untuk masa depan berkelanjutan</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
